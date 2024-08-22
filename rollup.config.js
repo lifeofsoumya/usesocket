@@ -1,7 +1,6 @@
 import { terser } from 'rollup-plugin-terser'
 
 const devmode = (process.env.NODE_ENV !== 'production')
-console.log('devmode ', devmode)
 
 export default [
   {
